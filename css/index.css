@@ -805,6 +805,14 @@ ul {
   animation: fill;
 }
 /* end our skills */
+/* start work steps */
+.work-steps {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+  position: relative;
+  background-color: var(--section-bg);
+}
+/* end work steps */
 /* start animation */
 @keyframes up-down {
   0%, 100% {
