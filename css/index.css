@@ -817,9 +817,19 @@ ul {
   align-items: center;
   justify-content: space-between;
 }
+@media (max-width: 991px) {
+  .work-steps .container {
+    flex-direction: column;
+  }
+}
 .work-steps .image {
   max-width: 100%;
   margin-right: 100px;
+}
+@media (max-width: 991px) {
+  .work-steps .image {
+    margin: 0 0 50px;
+  }
 }
 .work-steps .info .box {
   background-color: #f5f6f6;
