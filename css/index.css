@@ -1299,6 +1299,10 @@ ul {
 .discount .content p {
   line-height: 1.6;
   font-size: 18px;
+  max-width: 500px;
+}
+.discount .content img {
+  width: 300px;
 }
 /* end discount */
 /* start animation */
