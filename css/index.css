@@ -1006,7 +1006,7 @@ ul {
   flex: 1;
   caret-color: var(--main-color);
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .events .subscribe form input[type="email"] {
     border-radius: 0;
   }
