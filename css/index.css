@@ -95,7 +95,7 @@ ul {
   position: relative;
 }
 .spikes::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   width: 100%;
@@ -1375,7 +1375,6 @@ ul {
 }
 .discount .form [type="submit"]:hover {
   background-color: var(--main-color-alt);
-
 }
 .discount .content {
   text-align: center;
@@ -1583,7 +1582,8 @@ ul {
   }
 }
 @keyframes change-bg {
-  0%, 100% {
+  0%,
+  100% {
     background-image: url(../images/discount-background1.jpg);
   }
   50% {
