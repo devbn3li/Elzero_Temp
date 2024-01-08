@@ -1288,11 +1288,21 @@ ul {
   background-color: rgb(23 135 224 / 97%);
   z-index: -1;
 }
+@media (max-width: 991px) {
+  .discount .image {
+    flex-basis: 100%;
+  }
+}
 .discount .form {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-basis: 50%;
+}
+@media (max-width: 991px) {
+  .discount .form {
+    flex-basis: 100%;
+  }
 }
 .discount .form .input {
   display: block;
@@ -1325,7 +1335,7 @@ ul {
 }
 .discount .form [type="submit"]:hover {
   background-color: var(--main-color-alt);
-  
+
 }
 .discount .content {
   text-align: center;
