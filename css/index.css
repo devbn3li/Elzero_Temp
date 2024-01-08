@@ -1030,7 +1030,7 @@ ul {
   cursor: pointer;
   transition: var(--main-transition);
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .events .subscribe form input[type="submit"] {
     border-radius: 0;
   }
