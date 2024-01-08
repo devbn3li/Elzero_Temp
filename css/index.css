@@ -1294,6 +1294,39 @@ ul {
   justify-content: center;
   flex-basis: 50%;
 }
+.discount .form .input {
+  display: block;
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: #f9f9f9;
+  caret-color: var(--main-color);
+}
+.discount .form textarea.input {
+  resize: none;
+  height: 200px;
+}
+.discount .form .input:focus {
+  outline: none;
+}
+.discount .form [type="submit"] {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 15px;
+  background-color: var(--main-color);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  transition: var(--main-transition);
+}
+.discount .form [type="submit"]:hover {
+  background-color: var(--main-color-alt);
+  
+}
 .discount .content {
   text-align: center;
   padding: 0 20px;
