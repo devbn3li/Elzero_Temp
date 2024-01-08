@@ -829,8 +829,7 @@ ul {
   position: absolute;
   top: 0;
   left: 0;
-  transition: var(--main-transition);
-  animation: fill;
+  transition: width 0.5s linear;
 }
 /* end our skills */
 /* start work steps */
@@ -860,16 +859,21 @@ ul {
   }
 }
 .work-steps .info .box {
-  background-color: #f5f6f6;
+  background-color: #f6f6f6;
   padding: 30px;
   margin-bottom: 20px;
   border-radius: 6px;
   display: flex;
   align-items: center;
-  transition: var(--main-transition);
   border: 2px solid white;
   position: relative;
   z-index: 1;
+}
+@media (max-width: 767px) {
+  .work-steps .info .box {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 .work-steps .info .box::before {
   content: "";
@@ -895,6 +899,11 @@ ul {
   margin: 0;
   font-size: 20px;
   color: var(--main-color);
+}
+@media (max-width: 767px) {
+  .work-steps .info .box img {
+    margin: 0 0 30px;
+  }
 }
 .work-steps .info .box p {
   margin: 10px 0 0;
@@ -982,7 +991,7 @@ ul {
   display: flex;
   gap: 20px;
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .events .subscribe form {
     max-width: 100%;
     padding: 20px;
